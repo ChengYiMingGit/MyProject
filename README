@@ -1,0 +1,21 @@
+
+
+my project for github
+2018.06.16
+09:18
+on home
+test 
+
+
+
+#test connect github
+ssh -T git@github.com
+
+
+
+#enter current dir
+git init
+git add README
+git commit -m "this is a myproject for github"
+git remote add origin git@github.com:ChengYiMingGit/MyProject.git
+git -u push origin master  
